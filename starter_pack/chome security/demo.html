@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <style type="text/css" media="screen">
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+    var news = {
+        "entity": {
+            "Id": "TopNews",
+            "e": "TopNews",
+            "w": {
+                "Codes": [
+                    "urn:newsml:reuters.com:20020923:SPDOC_119827232002"
+                ],
+                "LoadImages": false
+            }
+        }
+    }
+    $(document).ready(function() {
+        $.ajax({
+            url: 'https://amers1.proxy.cp.reutest.com/msf/auth/login',
+            type: 'POST',
+            headers: {
+                'Authorization': 'Basic ZWlrb25zdHVkZW50MUB0aG9tc29ucmV1dGVycy5jb206RWlrb250ZXN0MQ=='   // ADD YOUR OWN CREDENTIALS
+            },
+            success: handleSuccess,
+            error: handleError,
+            complete: handleComplete
+        });
+    });
+
+    function handleSuccess(data, textStatus, jqXHR) {
+        // console.log(data, textStatus, jqXHR);
+    }
+
+    function handleError(jqXHR, textStatus, err) {
+        // console.log(jqXHR, textStatus, err);
+    }
+
+    function handleComplete() {
+        $.ajax({
+            url: 'https://amers1.proxy.cp.reutest.com/msf',
+            contentType: 'application/json',
+            type: 'POST',
+            data: JSON.stringify(news),
+            dataType: 'json',
+            success: handleSuccessData,
+            error: handleError,
+        });
+    }
+
+    function handleSuccessData (data) {
+        console.log("Json object returned from API: Top News")
+        console.log(data);
+    }
+
+
+    </script>
+</head>
+
+<body>
+    <h1>Open your console.</h1>
+</body>
+
+</html>
