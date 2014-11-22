@@ -7,7 +7,7 @@
 
     <meta charset="utf-8">
 
-    <title>D3 World Map Template </title>
+    <title> Risk Assessment </title>
 
     <script src="js/d3.min.js"></script>
     <script src="js/topojson.v1.min.js"></script>
@@ -67,56 +67,53 @@
   <body>
 
   <h1> Risk Assessment </h1>
-  <!-- <p>Responsive D3 World Map with zoom and pan limits, graticule and equator lines, optimized TopoJSON with country names and colors, geo translation functions, geo coordinate plotting functions for points and text, and much more.  For a full list of features, please go <a href="http://techslides.com/d3-map-starter-kit/">back to article</a>.</p> -->
-
 
   <div id="container"></div>
   <script>
   
-d3.select(window).on("resize", throttle);
+  d3.select(window).on("resize", throttle);
 
-var zoom = d3.behavior.zoom()
-    .scaleExtent([1, 9])
-    .on("zoom", move);
+      var zoom = d3.behavior.zoom()
+        .scaleExtent([1, 9])
+        .on("zoom", move);
 
 
-//var width = document.getElementById('container').offsetWidth;
-//var height = width / 2;
+      var width = document.getElementById('container').offsetWidth;
+      var height = width / 2;
 
-var width = 1200;
-var height = width / 2;
 
-var topo,projection,path,svg,g;
+      var topo,projection,path,svg,g;
 
-var graticule = d3.geo.graticule();
+      var graticule = d3.geo.graticule();
 
-var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
+      var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
 
-setup(width,height);
+      setup(width,height);
 
-function setup(width,height){
-  projection = d3.geo.mercator()
-    .translate([(width/2), (height/2)])
-    .scale( width / 2 / Math.PI);
+      function setup(width,height){
+      projection = d3.geo.mercator()
+        .translate([(width/2), (height/2)])
+        .scale( width / 2 / Math.PI);
 
-  path = d3.geo.path().projection(projection);
+      path = d3.geo.path().projection(projection);
 
-  svg = d3.select("#container").append("svg")
-      .attr("width", width)
-      .attr("height", height)
-      .call(zoom)
-      .on("click", click)
-      .append("g");
+      svg = d3.select("#container").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .call(zoom)
+        .on("click", click)
+        .append("g");
 
-  g = svg.append("g");
+       g = svg.append("g");
 
-}
+      }
 
-d3.json("data/world-topo-min.json", function(error, world) {
+    d3.json("data/world-topo-min.json", function(error, world) {
 
   var countries = topojson.feature(world, world.objects.countries).features;
 
   topo = countries;
+  
   draw(topo);
 
 });
@@ -127,12 +124,10 @@ function draw(topo) {
      .datum(graticule)
      .attr("class", "graticule")
      .attr("d", path);
-
-
   g.append("path")
-   .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
-   .attr("class", "equator")
-   .attr("d", path);
+    .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
+    .attr("class", "equator")
+    .attr("d", path);
 
 
   var country = g.selectAll(".country").data(topo);
@@ -142,9 +137,24 @@ function draw(topo) {
       .attr("d", path)
       .attr("id", function(d,i) { return d.id; })
       .attr("title", function(d,i) { return d.properties.name; })
-      .style("fill", "white" );
+      .style("fill", "white" )
       // old argument function(d, i) { return d.properties.color; }
 
+    function makeDict(){
+    var dict = [];
+    for (i=0;i<242;i++)
+     {
+        dict.push({
+
+        key : country[0][i].id,
+        value : country[0][i].attributes.title.value
+
+      })
+      } 
+    }
+
+    makeDict();
+  
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft+20;
   var offsetT = document.getElementById('container').offsetTop+10;
@@ -157,7 +167,9 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html(d.properties.name);
+             .html(d.properties.name + d.id)
+            
+             
 
       })
       .on("mouseout",  function(d,i) {
