@@ -1,3 +1,14 @@
 {
-    "name": "iulia"
+    "country": [
+        {"name":"USA", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"Germany", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"Italy", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"Spain", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"United Kingdom", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"France", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+        {"name":"Belgium", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"} 
+    ]
+        
+        
+    
 }
