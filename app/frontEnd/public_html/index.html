@@ -170,7 +170,7 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html(d.properties.name + d.id)
+             .html(d.properties.name)
             
              
 
@@ -243,7 +243,9 @@ function throttle() {
 function click() {
   var latlon = projection.invert(d3.mouse(this));
   console.log(latlon);
-  window.open ("countryPage.html",'_self')
+  top.name = "TEST!!";
+  window.open ("countryPage.html",'_self');
+  
 }
 
 
@@ -272,6 +274,17 @@ function addpoint(lat,lon,text) {
 
 }
 
-</script>
-</body>
+function applyColour(){
+  d3.select(".country")
+    .attr("fill", function(d){
+          "(0,0," + d + ")" ;
+}
+)}
+
+  applyColour();
+
+  </script>
+
+  </body>
+
 </html>
