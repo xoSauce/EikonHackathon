@@ -28,14 +28,15 @@
 						.attr("height", height);
 
 			//Load in GeoJSON data
-			d3.json("us-states.json", function(json) {
+			d3.json("countries/USA.geo.json", function(json) {
 				
 				//Bind data and create one path per GeoJSON feature
 				svg.selectAll("path")
 				   .data(json.features)
 				   .enter()
 				   .append("path")
-				   .attr("d", path);
+				   .attr("d", path)
+				   .attr("fill","white")
 		
 			});
 			
