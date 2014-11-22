@@ -12,32 +12,16 @@ and open the template in the editor.
         <link rel="stylesheet" href="css/EikonWebUI.css">
         <link rel="stylesheet" href="countryPage.css">
        
-    </head>
-    <body>
-       
-        <div>
-            <div id="firstColumn" style="float:left">
-                <div id="name"></div>
-                <div id="map"></div>
-            </div>
-       
-            <div id="secondColumn" style="float:left">
-                <div id="crime"></div>
-                <div id="polution"></div>
-                <div id="naturalDisasters"></div>
-            </div>
-        </div>
-        
         
         <script>
             var jsonString =  [
-                {"name":"USA", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
-                {"name":"Germany", "crime":"whateverGermany", "polution":"whateverGermany", "naturalDisasters":"whateverGermany"},
-                {"name":"Italy", "crime":"whateverItaly", "polution":"whateverItaly", "naturalDisasters":"whateverItaly"},
-                {"name":"Spain", "crime":"whateverSpain", "polution":"whateverSpain", "naturalDisasters":"whateverSpain"},
-                {"name":"United Kingdom", "crime":"whateverUK", "polution":"whateverUK", "naturalDisasters":"whateverUK"},
-                {"name":"France", "crime":"whateverFrance", "polution":"whateverFrance", "naturalDisasters":"whateverFrance"},
-                {"name":"Belgium", "crime":"whateverBelgium", "polution":"whateverBelgium", "naturalDisasters":"whateverBelgium"} 
+                {"name":"USA", "crime":"crimeUSA", "pollution":"polutionUSA", "naturalDisasters":"naturalDIsastersUSA"},
+                {"name":"Germany", "crime":"crimeGermany", "pollution":"polutionGermany", "naturalDisasters":"naturalDisastersGermany"},
+                {"name":"Italy", "crime":"crimeItaly", "pollution":"polutionItaly", "naturalDisasters":"naturalDisastersItaly"},
+                {"name":"Spain", "crime":"crimeSpain", "pollution":"polutionSpain", "naturalDisasters":"naturalDisastersSpain"},
+                {"name":"United Kingdom", "crime":"crimeUK", "pollution":"polutionUK", "naturalDisasters":"naturalDisastersUK"},
+                {"name":"France", "crime":"crimeFrance", "pollution":"polutionFrance", "naturalDisasters":"naturalDisastersFrance"},
+                {"name":"Belgium", "crime":"crimeBelgium", "pollution":"polutionBelgium", "naturalDisasters":"naturalDisastersBelgium"} 
             ];
             
             
@@ -49,7 +33,7 @@ and open the template in the editor.
                 {
                     document.getElementById("name").innerHTML=jsonString[index].name;
                     document.getElementById("crime").innerHTML=jsonString[index].crime;
-                    document.getElementById("polution").innerHTML=jsonString[index].polution;
+                    document.getElementById("pollution").innerHTML=jsonString[index].pollution;
                     document.getElementById("naturalDisasters").innerHTML=jsonString[index].naturalDisasters;
                 }
                 else
@@ -68,6 +52,36 @@ and open the template in the editor.
             
        
         </script>
+        
+    </head>
+    <body>
+       
+        <div>
+            <div id="firstColumn" style="float:left; width: 50%" >
+                <h1 id="name"></h1>
+                <div id="map"></div>
+            </div>
+       
+            
+           
+            <ul class="block-list" id="secondColumn" style="float:left">
+                <li class="block-list-item content-spacer">
+                    <a class="block-list-link" href="javascript:void(0);">Crime Rate</a>
+                    <p id="crime"></p>
+                </li>
+                <li class="block-list-item content-spacer">
+                    <a class="block-list-link" href="javascript:void(0);">Pollution degree</a>
+                    <p id="pollution"></p>
+                </li>
+                <li class="block-list-item content-spacer">
+                    <a class="block-list-link" href="javascript:void(0);">Natural Disasters</a>
+                    <p id="naturalDisasters"></p>
+                </li>
+            </ul>
+          
+        </div>
+        
+        
         
         
     </body>
