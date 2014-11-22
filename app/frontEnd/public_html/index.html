@@ -158,25 +158,20 @@ function draw(topo) {
 
     makeDict();
 
- //   console.log(country[0][0]);
-
- // function calcIndex(crime,pollution,naturaldisaster){
-
- //   }
-
-   function applyColour(Id,index){
-    country[0][Id]
-    .style['cssText'] = function(index){
-        return "fill: rgba(0,0,0" + index + ");"
-      }
+    function calcIndex(crime,pollution,naturaldisaster){
+      
     }
 
-        /*function(){
-          return "rgba(10,0,0," + index + ")" ;
-      }
-    }*/
 
-  applyColour(228,1);
+
+   function applyColour(id,index){
+    g.selectAll(".country")[0][id].style.cssText =
+    "fill: rgba(255,0,255," + index +  ");"
+    
+    }
+
+  applyColour(222,2);
+
 
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft+20;
