@@ -1,11 +1,20 @@
+        
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Loading GeoJSON data and generating SVG paths</title>
+		<script type="text/javascript" src="../d3/d3.v3.js"></script>
+		<link rel="stylesheet" href="css/EikonWebUI.css">
+	</head>
+	<body>
+		<script type="text/javascript">
 
+			//Width and height
+			var w = 500;
+			var h = 300;
 
+<<<<<<< HEAD
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -35,3 +44,29 @@ and open the template in the editor.
     </body>
 
 </html>
+=======
+			//Define default path generator
+			var path = d3.geo.path();
+
+			//Create SVG element
+			var svg = d3.select("body")
+						.append("svg")
+						.attr("width", w)
+						.attr("height", h);
+
+			//Load in GeoJSON data
+			d3.json("us-states.json", function(json) {
+				
+				//Bind data and create one path per GeoJSON feature
+				svg.selectAll("path")
+				   .data(json.features)
+				   .enter()
+				   .append("path")
+				   .attr("d", path);
+		
+			});
+			
+		</script>
+	</body>
+</html>
+>>>>>>> FETCH_HEAD
