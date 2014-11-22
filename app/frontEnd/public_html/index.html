@@ -9,11 +9,14 @@
 
     <title>D3 World Map Template </title>
 
+    <script src="js/d3.min.js"></script>
+    <script src="js/topojson.v1.min.js"></script>
+
     <style>
 
       .country:hover{
-        stroke: #fff;
-        stroke-width: 1.5px;
+        stroke: #000;
+        stroke-width: 0.25px;
       }
 
       .text{
@@ -27,7 +30,7 @@
         border-radius: 5px;
         height:100%;
         overflow:hidden;
-        background: #F0F8FF;
+        background: #850000;
       }
 
       .hidden { 
@@ -63,14 +66,11 @@
 
   <body>
 
-  <h1>World Map Template with D3.js</h1>
-  <p>Responsive D3 World Map with zoom and pan limits, graticule and equator lines, optimized TopoJSON with country names and colors, geo translation functions, geo coordinate plotting functions for points and text, and much more.  For a full list of features, please go <a href="http://techslides.com/d3-map-starter-kit/">back to article</a>.</p>
+  <h1> Risk Assessment </h1>
+  <!-- <p>Responsive D3 World Map with zoom and pan limits, graticule and equator lines, optimized TopoJSON with country names and colors, geo translation functions, geo coordinate plotting functions for points and text, and much more.  For a full list of features, please go <a href="http://techslides.com/d3-map-starter-kit/">back to article</a>.</p> -->
 
 
   <div id="container"></div>
-
-  <script src="js/d3.min.js"></script>
-  <script src="js/topojson.v1.min.js"></script>
   <script>
   
 d3.select(window).on("resize", throttle);
@@ -80,7 +80,10 @@ var zoom = d3.behavior.zoom()
     .on("zoom", move);
 
 
-var width = document.getElementById('container').offsetWidth;
+//var width = document.getElementById('container').offsetWidth;
+//var height = width / 2;
+
+var width = 1200;
 var height = width / 2;
 
 var topo,projection,path,svg,g;
@@ -139,7 +142,8 @@ function draw(topo) {
       .attr("d", path)
       .attr("id", function(d,i) { return d.id; })
       .attr("title", function(d,i) { return d.properties.name; })
-      .style("fill", function(d, i) { return d.properties.color; });
+      .style("fill", "white" );
+      // old argument function(d, i) { return d.properties.color; }
 
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft+20;
@@ -162,13 +166,14 @@ function draw(topo) {
 
 
   //EXAMPLE: adding some capitals from external CSV file
-  d3.csv("data/country-capitals.csv", function(err, capitals) {
+/*  d3.csv("data/country-capitals.csv", function(err, capitals) {
 
     capitals.forEach(function(i){
       addpoint(i.CapitalLongitude, i.CapitalLatitude, i.CapitalName );
     });
 
   });
+*/
 
 }
 
