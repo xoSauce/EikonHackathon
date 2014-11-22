@@ -84,7 +84,7 @@
 
       var topo,projection,path,svg,g;
 
-      var graticule = d3.geo.graticule();
+      // Gridlines var graticule = d3.geo.graticule();
 
       var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
 
@@ -120,7 +120,8 @@
 
 function draw(topo) {
 
-  svg.append("path")
+  // Gridlines
+ /*svg.append("path")
      .datum(graticule)
      .attr("class", "graticule")
      .attr("d", path);
@@ -128,7 +129,7 @@ function draw(topo) {
     .datum({type: "LineString", coordinates: [[-180, 0], [-90, 0], [0, 0], [90, 0], [180, 0]]})
     .attr("class", "equator")
     .attr("d", path);
-
+  */
 
   var country = g.selectAll(".country").data(topo);
 
