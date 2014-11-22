@@ -12,14 +12,13 @@ def get_crime(entry):
         index = float(val)
         return index
     except:
-        return -1
+        return None
 
 
 
 def run():
+
     dfdb.db_connect()
-    results = dfdb.selectAll("SELECT * FROM countries")
-    print results
     start_link = 'http://www.numbeo.com/crime/'
     r = requests.get(start_link)
     bs = BeautifulSoup(r.content)
@@ -31,7 +30,8 @@ def run():
     for entry in links:
         level_of_crime = get_crime(entry[1])
         name = entry[0]
-        dfdb.insert("INSERT INTO countries (name,crime_index) values (%s, %s)",(name,level_of_crime))
+        dfdb.insert("UPDATE countries SET crime_index = %s WHERE name = %s", (level_of_crime,name))
+    dfdb.db_close()
 
 if __name__ == '__main__':
     run()
