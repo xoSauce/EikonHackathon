@@ -10,8 +10,60 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/EikonWebUI.css">
+       
     </head>
     <body>
-        <div id="title"></div>
+       
+        <div>
+            <div id="name"></div>
+            <div id="map"></div>
+            <div id="crime"></div>
+            <div id="polution"></div>
+            <div id="naturalDisasters"></div>
+            
+        </div>
+        
+        
+        <script>
+            var jsonString =  [
+                {"name":"USA", "crime":"whateverUSA", "polution":"whateverUSA", "naturalDisasters":"whateverUSA"},
+                {"name":"Germany", "crime":"whateverGermany", "polution":"whateverGermany", "naturalDisasters":"whateverGermany"},
+                {"name":"Italy", "crime":"whateverItaly", "polution":"whateverItaly", "naturalDisasters":"whateverItaly"},
+                {"name":"Spain", "crime":"whateverSpain", "polution":"whateverSpain", "naturalDisasters":"whateverSpain"},
+                {"name":"United Kingdom", "crime":"whateverUK", "polution":"whateverUK", "naturalDisasters":"whateverUK"},
+                {"name":"France", "crime":"whateverFrance", "polution":"whateverFrance", "naturalDisasters":"whateverFrance"},
+                {"name":"Belgium", "crime":"whateverBelgium", "polution":"whateverBelgium", "naturalDisasters":"whateverBelgium"} 
+            ];
+            
+            
+            document.onload=loadCountry("USA");
+            
+            function loadCountry(countryName){
+                var index = searchIndex(countryName);
+                if(index!=(-1))
+                {
+                    document.getElementById("name").innerHTML=jsonString[index].name;
+                    document.getElementById("crime").innerHTML=jsonString[index].crime;
+                    document.getElementById("polution").innerHTML=jsonString[index].polution;
+                    document.getElementById("naturalDisasters").innerHTML=jsonString[index].naturalDisasters;
+                }
+                else
+                    alert("The country does not exist!!");
+                
+            }
+            
+            function searchIndex(countryName){
+                for(var i=0; i<jsonString.length; ++jsonString){
+                    if(jsonString[i].name==countryName)
+                        return i;
+                }
+                return -1;
+            }
+            
+            
+       
+        </script>
+        
+        
     </body>
 </html>
