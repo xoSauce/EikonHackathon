@@ -157,7 +157,27 @@ function draw(topo) {
     }
 
     makeDict();
-  
+
+ //   console.log(country[0][0]);
+
+ // function calcIndex(crime,pollution,naturaldisaster){
+
+ //   }
+
+   function applyColour(Id,index){
+    country[0][Id]
+    .style['cssText'] = function(index){
+        return "fill: rgba(0,0,0" + index + ");"
+      }
+    }
+
+        /*function(){
+          return "rgba(10,0,0," + index + ")" ;
+      }
+    }*/
+
+  applyColour(228,1);
+
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft+20;
   var offsetT = document.getElementById('container').offsetTop+10;
@@ -171,10 +191,9 @@ function draw(topo) {
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
              .html(d.properties.name)
-            
-             
-
+      
       })
+
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
       }); 
@@ -228,8 +247,6 @@ function move() {
 
 }
 
-
-
 var throttleTimer;
 function throttle() {
   window.clearTimeout(throttleTimer);
@@ -273,15 +290,6 @@ function addpoint(lat,lon,text) {
   }
 
 }
-
-function applyColour(){
-  d3.select(".country")
-    .attr("fill", function(d){
-          "(0,0," + d + ")" ;
-}
-)}
-
-  applyColour();
 
   </script>
 
