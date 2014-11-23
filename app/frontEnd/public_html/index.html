@@ -90,6 +90,9 @@
 
       var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
 
+      var idDict = [];
+      var crimeIndexDict = [];
+
       setup(width,height);
 
       function setup(width,height){
@@ -143,11 +146,10 @@ function draw(topo) {
       .style("fill", "white" )
       // old argument function(d, i) { return d.properties.color; }
 
-    function makeDict(){
-    var dict = [];
+    function makeIdDict(){
     for (i=0;i<242;i++)
      {
-        dict.push({
+        idDict.push({
 
         key : country[0][i].id,
         value : country[0][i].attributes.title.value
@@ -156,7 +158,21 @@ function draw(topo) {
       } 
     }
 
-    makeDict();
+    makeIdDict();
+
+    function makeCrimeIndexDict(){
+    for (i=0;i<242;i++)
+     {
+        crimeIndexDict.push({
+
+        key : country[0][i].id,
+        value : 0
+
+      })
+      } 
+    }
+
+    makeCrimeIndexDict();
 
     function calcIndex(crime,pollution,naturaldisaster){
 
@@ -170,7 +186,7 @@ function draw(topo) {
     
     }
 
-  applyColour(222,2);
+  applyColour(41,2);
 
 
   //offsets for tooltips
@@ -185,9 +201,9 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html("<p>Test Para</p><p>Another test para</p> <p>Even more test para's</p>")
+             .html("<p>"+d.properties.name+"</p><p>Risk Index: " + crimeIndexDict[d.id].value + "</p> <p>Even more test para's</p>")
 
-             //d.properties.name
+             
       
       })
 
