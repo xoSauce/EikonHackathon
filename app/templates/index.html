@@ -222,11 +222,20 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html("<b>"+d.properties.name+"</b><br>Crime Index : " + data[d.id].crime_index + "</br>Pollution Index :" + data[d.id].pollution_index + "<br>Natural Disaster Index :" + data[d.id].natural_disaster_index )
+             .html("<b>"+d.properties.name+"</b><br>Crime Index : " + data[d.id].crime_index +
+             "</br>Pollution Index :" + data[d.id].pollution_index + "<br>Natural Disaster Index :"
+             + data[d.id].natural_disaster_index+ "</br>GDP :"+ data[d.id].gdp.toFixed(2) + "<br>Import :"
+             +data[d.id].import.toFixed(2) + "</br>Export : " + data[d.id].export.toFixed(2)
+             + "<br> Dept :" + data[d.id].debt.toFixed(2))
 
              
       
+     //  })[d.id].debt )
+
+
+
       })
+
 
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
