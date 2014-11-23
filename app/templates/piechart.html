@@ -21,7 +21,19 @@
 			var w = 300;
 			var h = 300;
 
-			var dataset = [ 5, 10, 20, 45, 6, 25 ];
+			var dataset = [ 15.7, 8.1, 2.1, 45, ];
+
+			/*
+			GDP (PPP):
+			$15.7 trillion
+			2.2% growth
+			0.6% 5-year compound annual growth
+			$49,922 per capita
+			Unemployment:
+			8.1%
+			Inflation (CPI):
+			2.1%
+			*/
 
 			var outerRadius = w / 2;
 			var innerRadius = w / 3;
@@ -31,8 +43,10 @@
 			
 			var pie = d3.layout.pie();
 			
-			//Easy colors accessible via a 10-step ordinal scale
-			var color = d3.scale.category10();
+			//colour 
+			var color = ["rgba(0,0,0,1)","rgba(255,153,0,0.3)","rgba(255,153,0,0.45)","rgba(255,153,0,0.6)","rgba(255,153,0,0.75)"]
+
+			//d3.scale.category10(;
 
 			//Create SVG element
 			var svg = d3.select("body")
@@ -40,7 +54,7 @@
 						.attr("width", w)
 						.attr("height", h);
 			
-			//Set up groups
+			//Set groups
 			var arcs = svg.selectAll("g.arc")
 						  .data(pie(dataset))
 						  .enter()
@@ -48,14 +62,19 @@
 						  .attr("class", "arc")
 						  .attr("transform", "translate(" + outerRadius + "," + outerRadius + ")");
 			
-			//Draw arc paths
+			//Draw arc 
 			arcs.append("path")
 				.transition()
 				.duration(1100)
 			    .attr("fill", function(d, i) {
-			    	return color(i);
+			    	return color[i+1];
 			    })
 			    .attr("d", arc);
+
+
+			svg[0].append("div")
+			
+
 			
 			//Labels
 			/*arcs.append("text")
