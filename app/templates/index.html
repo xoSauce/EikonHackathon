@@ -11,15 +11,30 @@
 
     <script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+
+    <script>
+         function decodeJSON(encodedJSON) {
+          var decodedJSON = $('<div/>').html(encodedJSON).text();
+          return $.parseJSON(decodedJSON);
+         }
+
+         var myVar = '{{ jsondict }}';
+         var data = decodeJSON(myVar);
+
+    </script>
+
     <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong>
+
 
 
     <style>
 
-      .country:hover{
-        stroke: #000;
+     /*.country:hover{ */
+        .country {
+        stroke: #FFF;
         stroke-width: 0.25px;
-      }
+      }hover
 
       .text{
         font-size:10px;
@@ -32,7 +47,7 @@
         border-radius: 5px;
         height:100%;
         overflow:hidden;
-        background: #850000;
+        background: #cdc9c9;
       }
 
       .hidden { 
@@ -72,7 +87,7 @@
 
   <div id="container"></div>
   <script>
-  
+
   d3.select(window).on("resize", throttle);
 
       var zoom = d3.behavior.zoom()
@@ -182,11 +197,17 @@ function draw(topo) {
 
    function applyColour(id,index){
     g.selectAll(".country")[0][id].style.cssText =
-    "fill: rgba(255,0,255," + index +  ");"
+    "fill: rgba(255,102,0," + index +  ");"
     
     }
 
-  applyColour(41,2);
+  //applyColour(41,2);
+
+    for (i=0;i<242;i++){
+    if(data[i].crime_index != null){
+    applyColour(i,(data[i].crime_index)/100);
+    }
+    }
 
 
   //offsets for tooltips
@@ -201,7 +222,7 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html("<p><b>"+d.properties.name+"</b><br>Risk Index: " + crimeIndexDict[d.id].value + "</br> </p> <p>Even more test para's</p>")
+             .html("<b>"+d.properties.name+"</b><br>Crime Index : " + data[d.id].crime_index + "</br>Pollution Index :" + data[d.id].pollution_index + "<br>Natural Disaster Index :" + data[d.id].natural_disaster_index )
 
              
       
@@ -256,7 +277,7 @@ function move() {
   g.attr("transform", "translate(" + t + ")scale(" + s + ")");
 
   //adjust the country hover stroke width based on zoom level
-  d3.selectAll(".country").style("stroke-width", 1.5 / s);
+ // for perm white border d3.selectAll(".country").style("stroke-width", 1.5 / s);
 
 }
 
@@ -274,7 +295,7 @@ function click() {
   var latlon = projection.invert(d3.mouse(this));
   console.log(latlon);
   top.name = "TEST!!";
-  window.open ("countryPage.html",'_self');
+  window.open ("countryPage.html",'_/self');
   
 }
 
