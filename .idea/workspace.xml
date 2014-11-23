@@ -2,9 +2,621 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f11a23-42fd-4cc4-bbaf-6c5f272e0729" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerSide/target/classes/Main$1.class" afterPath="$PROJECT_DIR$/ServerSide/target/classes/Main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerSide/target/classes/Main.class" afterPath="$PROJECT_DIR$/ServerSide/target/classes/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerSide/src/main/java/Main.java" afterPath="$PROJECT_DIR$/ServerSide/src/main/java/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Adair.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Adams.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Adams.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Alachua.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Alameda.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Alamosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Aleutians East.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Aleutians West.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Alpine.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Amador.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Anchorage.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Apache.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Appling.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Arapahoe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Archuleta.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Arkansas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Ashley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Atkinson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Audubon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Autauga.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Baca.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bacon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Baker.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Baker.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Baldwin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Baldwin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Banks.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Barbour.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Barrow.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bartow.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Baxter.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Bay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Ben Hill.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Bent.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Benton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Benton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Berrien.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Bethel.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Bibb.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bibb.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bleckley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Blount.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Boone.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Boone.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Boulder.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Bradford.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Bradley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Brantley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Bremer.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Brevard.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Bristol Bay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Brooks.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Broward.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bryan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Bulloch.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Bullock.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Burke.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Butler.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Butler.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Butte.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Butts.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Calaveras.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Calhoun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Calhoun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Calhoun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Calhoun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Calhoun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Camden.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Candler.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Carroll.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Carroll.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Carroll.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Cass.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Catoosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Cedar.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Chaffee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Chambers.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Charlotte.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Charlton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Chatham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Chattahoochee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Chattooga.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Cherokee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Cherokee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Cheyenne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Chicot.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Chilton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Choctaw.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Citrus.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Clark.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Clarke.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Clarke.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Clarke.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Clay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Clay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Clay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Clay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Clay.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Clayton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Clayton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Clear Creek.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Cleburne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Cleburne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Cleveland.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Clinch.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Clinton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Cobb.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Cochise.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Coconino.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Coffee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Coffee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Colbert.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Collier.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Colquitt.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Columbia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Columbia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Columbia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Colusa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Conecuh.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Conejos.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Contra Costa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Conway.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Cook.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Coosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Costilla.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Covington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Coweta.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Craighead.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Crawford.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Crawford.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Crenshaw.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Crisp.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Crittenden.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Cross.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Crowley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Cullman.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Custer.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Dade.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Dale.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Dallas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Dallas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Dallas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Davis.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Dawson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/DeKalb.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/DeKalb.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/DeSoto.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Decatur.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Decatur.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Del Norte.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Delta.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Denali.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Denver.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Desha.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Dillingham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/DC/District of Columbia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Dixie.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Dodge.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Dolores.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Dooly.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Dougherty.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Douglas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Douglas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Drew.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Dubuque.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Duval.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Eagle.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Early.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Echols.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Effingham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/EikonWebUI.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/El Dorado.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/El Paso.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Elbert.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Elbert.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Elmore.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Emanuel.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Emmet.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Escambia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Escambia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Etowah.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Evans.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Fairbanks North Star.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Fairfield.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Fannin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Faulkner.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Fayette.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Fayette.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Fayette.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Flagler.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Floyd.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Floyd.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Forsyth.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Franklin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Franklin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Franklin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Franklin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Fremont.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Fremont.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Fresno.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Fulton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Fulton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Gadsden.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Garfield.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Garland.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Geneva.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Gila.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Gilchrist.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Gilmer.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Gilpin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Glades.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Glascock.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Glenn.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Glynn.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Gordon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Grady.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Graham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Grand.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Grant.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Greene.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Greene.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Greene.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Greene.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Greenlee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Grundy.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Gulf.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Gunnison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Guthrie.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Gwinnett.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Habersham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Haines.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Hale.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Hall.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Hamilton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Hancock.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Hancock.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Haralson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Hardee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Hardin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Harris.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Hart.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Hartford.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/HI/Hawaii.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Heard.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Hempstead.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Hendry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Henry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Henry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Henry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Hernando.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Highlands.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Hillsborough.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Hinsdale.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Holmes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/HI/Honolulu.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Hot Spring.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Houston.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Houston.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Howard.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Howard.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Huerfano.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Humboldt.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Ida.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Imperial.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Independence.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Indian River.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Inyo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Iowa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Irwin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Izard.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Jackson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jasper.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Jasper.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jeff Davis.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Jefferson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Jefferson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Jefferson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Jefferson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jefferson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jenkins.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Johnson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Johnson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Johnson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Jones.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Jones.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Juneau.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/HI/Kalawao.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/HI/Kauai.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Kenai Peninsula.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/DE/Kent.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Keokuk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Kern.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Ketchikan Gateway.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Kings.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Kiowa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Kit Carson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Kodiak Island.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Kossuth.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/La Paz.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/La Plata.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Lafayette.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Lafayette.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Lake and Peninsula.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Lake.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Lake.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Lake.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Lamar.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lamar.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lanier.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Larimer.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Las Animas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Lassen.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Lauderdale.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Laurens.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Lawrence.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Lawrence.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Lee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Lee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Lee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Lee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Leon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Levy.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Liberty.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Liberty.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Limestone.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Lincoln.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Lincoln.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lincoln.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Linn.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Litchfield.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Little River.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Logan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Logan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Long.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Lonoke.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Los Angeles.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Louisa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Lowndes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lowndes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Lucas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Lumpkin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Lyon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Macon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Macon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Madera.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Madison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Madison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Madison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Madison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Madison.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Mahaska.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Manatee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Marengo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Maricopa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Marin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Marion.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Marion.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Marion.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Marion.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Marion.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Mariposa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Marshall.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Martin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Matanuska-Susitna.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/HI/Maui.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/McDuffie.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/McIntosh.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Mendocino.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Merced.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Meriwether.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Mesa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Miami-Dade.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Middlesex.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Miller.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Miller.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Mills.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Mineral.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Mississippi.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Mitchell.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Mobile.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Modoc.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Moffat.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Mohave.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Mono.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Monona.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Monroe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Monroe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Monroe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Monroe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Monroe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Monterey.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Montezuma.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Montgomery.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Montgomery.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Montgomery.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Montrose.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Morgan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Morgan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Morgan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Murray.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Muscogee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Napa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Nassau.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Navajo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Nevada.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Nevada.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/DE/New Castle.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/New Haven.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/New London.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Newton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Newton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Nome.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/North Slope.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Northwest Arctic.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Oconee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Oglethorpe.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Okaloosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Okeechobee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Orange.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Orange.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Osceola.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Otero.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Ouachita.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Ouray.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Page.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Palm Beach.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Park.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Pasco.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Paulding.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Peach.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Perry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Perry.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Phillips.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Phillips.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Pickens.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Pickens.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Pierce.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Pike.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Pike.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Pike.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Pima.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Pinal.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Pinellas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Pitkin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Placer.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Plumas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Poinsett.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Polk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Polk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Polk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Polk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Pope.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Prairie.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Prince of Wales-Outer Ketchikan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Prowers.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Pueblo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Pulaski.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Pulaski.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Putnam.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Putnam.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Quitman.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Rabun.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Randolph.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Randolph.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Randolph.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Richmond.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Rio Blanco.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Rio Grande.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Riverside.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Rockdale.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Routt.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Russell.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Sac.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Sacramento.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Saguache.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Saline.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Benito.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Bernardino.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Diego.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Francisco.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Joaquin.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/San Juan.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Luis Obispo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/San Mateo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/San Miguel.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Santa Barbara.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Santa Clara.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Santa Cruz.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Santa Cruz.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Santa Rosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Sarasota.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Schley.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Scott.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Scott.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Screven.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Searcy.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Sebastian.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Sedgwick.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Seminole.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Seminole.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Sevier.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Sharp.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Shasta.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Shelby.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Shelby.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Sierra.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Sioux.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Siskiyou.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Sitka.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Skagway-Hoonah-Angoon.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Solano.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Sonoma.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Southeast Fairbanks.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Spalding.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/St. Clair.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/St. Francis.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/St. Johns.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/St. Lucie.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Stanislaus.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Stephens.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Stewart.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Stone.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Story.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Summit.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Sumter.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Sumter.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Sumter.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/DE/Sussex.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Sutter.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Suwannee.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Talbot.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Taliaferro.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Talladega.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Tallapoosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Tama.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Tattnall.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Taylor.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Taylor.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Taylor.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Tehama.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Telfair.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Teller.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Terrell.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Thomas.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Tift.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Tolland.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Toombs.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Towns.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Treutlen.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Trinity.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Troup.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Tulare.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Tuolumne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Turner.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Tuscaloosa.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Twiggs.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Union.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Union.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Union.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Union.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Upson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Valdez-Cordova.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Van Buren.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Ventura.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Volusia.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Wade Hampton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Wakulla.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Walker.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Walker.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Walton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Walton.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Ware.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Warren.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Warren.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Washington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Washington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Washington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/FL/Washington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Washington.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Wayne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Wayne.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Webster.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Weld.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Wheeler.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/White.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/White.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Whitfield.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Wilcox.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Wilcox.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Wilkes.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Wilkinson.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CT/Windham.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AL/Winston.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Woodruff.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/GA/Worth.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Worth.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Wrangell-Petersburg.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/IA/Wright.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Yakutat.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Yavapai.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AR/Yell.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Yolo.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CA/Yuba.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AK/Yukon-Koyukuk.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/AZ/Yuma.geo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/countries/USA/CO/Yuma.geo.json" />
+      <change type="DELETED" beforePath="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\RemoteSystemsTempFiles\.project" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/run.py" afterPath="$PROJECT_DIR$/app/run.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EikonHackathon.iws" />
@@ -30,34 +642,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ServerSide/pom.xml">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="714">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="476" max-vertical-offset="5100">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ServerSide/src/main/java/Main.java">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54953074" vertical-offset="0" max-vertical-offset="959">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="4522">
-              <caret line="12" column="47" selection-start-line="1" selection-start-column="0" selection-end-line="260" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.22331691" vertical-offset="0" max-vertical-offset="4913">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EikonWebUI.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/EikonWebUI.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="2" column="248805" selection-start-line="2" selection-start-column="248805" selection-end-line="2" selection-end-column="248805" />
               <folding />
             </state>
           </provider>
@@ -73,6 +692,9 @@
       <list>
         <option value="$PROJECT_DIR$/ServerSide/pom.xml" />
         <option value="$PROJECT_DIR$/ServerSide/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/app/templates/static/EikonWebUI.css" />
+        <option value="$PROJECT_DIR$/app/run.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
       </list>
     </option>
   </component>
@@ -112,6 +734,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,52 +763,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="starter_pack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServerSide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServerSide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -204,35 +781,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontEnd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EikonHackathon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontEnd" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -250,8 +804,30 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates\static\css" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates\static" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates\project_root\static" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates\static\css" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates\project_root" />
+      <recent name="C:\Users\XelnectPC\Documents\GitHub\EikonHackathon\app\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -269,165 +845,153 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
-      <properties />
-      <listeners />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="EikonHackathon" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -449,29 +1013,30 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16307858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1227126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32826748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -499,22 +1064,51 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ServerSide/pom.xml">
+    <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="714">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5015">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/app/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5015">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5015">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="5015">
+          <caret line="12" column="47" selection-start-line="1" selection-start-column="0" selection-end-line="260" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -526,37 +1120,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/pom.xml">
+    <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="476" max-vertical-offset="5100">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/target/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/app/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="619">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/frontEnd/public_html/index.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/css/EikonWebUI.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="4522">
-          <caret line="12" column="47" selection-start-line="1" selection-start-column="0" selection-end-line="260" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="622">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSide/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/app/static/css/EikonWebUI.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54953074" vertical-offset="0" max-vertical-offset="959">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="248805" selection-start-line="2" selection-start-column="248805" selection-end-line="2" selection-end-column="248805" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22331691" vertical-offset="0" max-vertical-offset="4913">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

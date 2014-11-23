@@ -90,6 +90,9 @@
 
       var tooltip = d3.select("#container").append("div").attr("class", "tooltip hidden");
 
+      var idDict = [];
+      var crimeIndexDict = [];
+
       setup(width,height);
 
       function setup(width,height){
@@ -143,11 +146,10 @@ function draw(topo) {
       .style("fill", "white" )
       // old argument function(d, i) { return d.properties.color; }
 
-    function makeDict(){
-    var dict = [];
+    function makeIdDict(){
     for (i=0;i<242;i++)
      {
-        dict.push({
+        idDict.push({
 
         key : country[0][i].id,
         value : country[0][i].attributes.title.value
@@ -156,8 +158,37 @@ function draw(topo) {
       } 
     }
 
-    makeDict();
-  
+    makeIdDict();
+
+    function makeCrimeIndexDict(){
+    for (i=0;i<242;i++)
+     {
+        crimeIndexDict.push({
+
+        key : country[0][i].id,
+        value : 0
+
+      })
+      } 
+    }
+
+    makeCrimeIndexDict();
+
+    function calcIndex(crime,pollution,naturaldisaster){
+
+    }
+
+
+
+   function applyColour(id,index){
+    g.selectAll(".country")[0][id].style.cssText =
+    "fill: rgba(255,0,255," + index +  ");"
+    
+    }
+
+  applyColour(41,2);
+
+
   //offsets for tooltips
   var offsetL = document.getElementById('container').offsetLeft+20;
   var offsetT = document.getElementById('container').offsetTop+10;
@@ -170,11 +201,12 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html(d.properties.name)
-            
-             
+             .html("<p><b>"+d.properties.name+"</b><br>Risk Index: " + crimeIndexDict[d.id].value + "</br> </p> <p>Even more test para's</p>")
 
+             
+      
       })
+
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
       }); 
@@ -228,8 +260,6 @@ function move() {
 
 }
 
-
-
 var throttleTimer;
 function throttle() {
   window.clearTimeout(throttleTimer);
@@ -273,15 +303,6 @@ function addpoint(lat,lon,text) {
   }
 
 }
-
-function applyColour(){
-  d3.select(".country")
-    .attr("fill", function(d){
-          "(0,0," + d + ")" ;
-}
-)}
-
-  applyColour();
 
   </script>
 
