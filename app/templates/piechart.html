@@ -12,9 +12,31 @@
 				fill: white;
 			}
 
+			#tooltip {
+				position: absolute;
+				width: 100px;
+				height: auto;
+				padding: 10px;
+				background-color: white;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				pointer-events: none;
+			}
+			
+			#tooltip.hidden {
+				display: none;
+			}
+
 		</style>
 	</head>
 	<body>
+		<div id="tooltip" class="hidden">
+
+		</div>
 		<script type="text/javascript">
 
 			//Width and height
@@ -64,16 +86,16 @@
 			
 			//Draw arc 
 			arcs.append("path")
-				.transition()
-				.duration(1100)
+			//	.transition()
+			//	.duration(1100)
 			    .attr("fill", function(d, i) {
 			    	return color[i+1];
 			    })
-			    .attr("d", arc);
+			    .attr("d", arc)
+			 /* 	.on("mouseover", function(d) {
+			    	d3.select("#tooltip").classed("hidden", false);
+			    	})	*/
 
-
-			svg[0].append("div")
-			
 
 			
 			//Labels
