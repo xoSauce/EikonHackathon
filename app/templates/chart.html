@@ -41,14 +41,14 @@
 	</head>
 	<body>
 		<div id="tooltip" class="hidden">
-			<p><strong> GDP </strong></p>
-			<p><span id="value">100</span>%</p>
+			<p><strong> GDP (nominal) </strong></p>
+			<p><span id="value">100</span>m</p>
 		</div>
 		<script type="text/javascript">
 
 			//Selected Countries 
 
-			var selectedCountries = [];
+			var selectedCountries = ["USA","China","United Kingdom","Japan","France","Germany","Russia"];
 
 
 			//Width and height
@@ -56,7 +56,9 @@
 			var h = 250;
 			
 		//	var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15];
-			var dataset = [];
+
+			var dataset = [16.2,9.5,2.4,4.9,2.8,3.6,2];
+
 			var yearDict = {0:"(2001)",1:"(2002)",2:"(2003)",3:"(2004)",4:"(2005)",5:"(2006)",6:"(2007)",7:"(2008)",8:"(2009)"};
 
 			var xScale = d3.scale.ordinal()
@@ -103,7 +105,7 @@
 						.style("top", yPosition + "px")						
 						.select("#value")
 					//	.text(yearDict[i] + d) ;
-						.text(selectedCountries[i] + " : " + d) ;
+						.text(selectedCountries[i] + " : $ " + d) ;
 			   
 					//Show tooltip
 					d3.select("#tooltip").classed("hidden", false);
