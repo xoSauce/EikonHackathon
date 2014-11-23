@@ -4,6 +4,10 @@ from flask import Flask, render_template
 from flask import  request
 app = Flask(__name__)
 
+@app.route('/countryPage.html')
+def countryPage():
+    return render_template('countryPage.html')
+
 @app.route('/')
 def index():
     dfdb.db_connect()
