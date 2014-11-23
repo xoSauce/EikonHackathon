@@ -9,10 +9,10 @@
 
     <title> Risk Assessment </title>
 
-    <script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script>
-    <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong>
-
+    <script src="js/d3.min.js"></script>
+    <script src="js/topojson.v1.min.js"></script>
+    <link rel="stylesheet" href="css/EikonWebUI.css">
+        
 
     <style>
 
@@ -68,7 +68,7 @@
 
   <body>
 
-  <h1> Risk Assessment </h1>
+  <h1 style="text-align: center; color: red"> Risk Assessment </h1>
 
   <div id="container"></div>
   <script>
@@ -113,7 +113,7 @@
 
       }
 
-    d3.json("{{ url_for('static', filename='data/world-topo-min.json') }}", function(error, world) {
+    d3.json("data/world-topo-min.json", function(error, world) {
 
   var countries = topojson.feature(world, world.objects.countries).features;
 
@@ -225,7 +225,7 @@ function draw(topo) {
 }
 
 
-function redraw() {
+  function redraw() {
   width = document.getElementById('container').offsetWidth;
   height = width / 2;
   d3.select('svg').remove();
