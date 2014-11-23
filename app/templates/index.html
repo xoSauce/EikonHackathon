@@ -9,9 +9,13 @@
 
     <title> Risk Assessment </title>
 
-    <script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script>
-    <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong>
+<!--<script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script> 
+    <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong> -->
+
+    <script type="text/javascript" src="/d3.min.js"></script>
+    <script src="/topojson.v1.min.js"></script> 
+    <strong><link rel="stylesheet" href="/EikonWebUI.css"></strong>
 
 
     <style>
@@ -32,7 +36,7 @@
         border-radius: 5px;
         height:100%;
         overflow:hidden;
-        background: #850000;
+        background: #cdc9c9;
       }
 
       .hidden { 
@@ -113,7 +117,7 @@
 
       }
 
-    d3.json("{{ url_for('static', filename='data/world-topo-min.json') }}", function(error, world) {
+    d3.json("/world-topo-min.json", function(error, world) {
 
   var countries = topojson.feature(world, world.objects.countries).features;
 
@@ -182,11 +186,11 @@ function draw(topo) {
 
    function applyColour(id,index){
     g.selectAll(".country")[0][id].style.cssText =
-    "fill: rgba(255,0,255," + index +  ");"
+    "fill: rgba(255,102,0," + index +  ");"
     
     }
 
-  applyColour(41,2);
+  applyColour(41,0.8);
 
 
   //offsets for tooltips
@@ -201,16 +205,15 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-             .html("<p><b>"+d.properties.name+"</b><br>Risk Index: " + crimeIndexDict[d.id].value + "</br> </p> <p>Even more test para's</p>")
+             .html("<b>"+d.properties.name+"</b><br>Risk Index: " + crimeIndexDict[d.id].value + "</br><br>Crime Index : </br> Natural Disaster :")
 
-             
-      
       })
 
       .on("mouseout",  function(d,i) {
         tooltip.classed("hidden", true);
       }); 
 
+  crimeIndexDict[41].value = 1.4;
 
   //EXAMPLE: adding some capitals from external CSV file
 /*  d3.csv("data/country-capitals.csv", function(err, capitals) {
