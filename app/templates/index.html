@@ -9,6 +9,7 @@
 
     <title> Risk Assessment </title>
 
+<<<<<<< HEAD
 <!--<script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script> 
     <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong> -->
@@ -16,14 +17,34 @@
     <script type="text/javascript" src="/d3.min.js"></script>
     <script src="/topojson.v1.min.js"></script> 
     <strong><link rel="stylesheet" href="/EikonWebUI.css"></strong>
+=======
+    <script src="{{ url_for('static', filename='js/d3.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/topojson.v1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+
+    <script>
+         function decodeJSON(encodedJSON) {
+          var decodedJSON = $('<div/>').html(encodedJSON).text();
+          return $.parseJSON(decodedJSON);
+         }
+
+         var myVar = '{{ jsondict }}';
+         var data = decodeJSON(myVar);
+
+    </script>
+
+    <strong><link rel="stylesheet" href="{{ url_for('static', filename='css/EikonWebUI.css') }}"></strong>
+>>>>>>> FETCH_HEAD
+
 
 
     <style>
 
-      .country:hover{
-        stroke: #000;
+     /*.country:hover{ */
+        .country {
+        stroke: #FFF;
         stroke-width: 0.25px;
-      }
+      }hover
 
       .text{
         font-size:10px;
@@ -76,7 +97,7 @@
 
   <div id="container"></div>
   <script>
-  
+
   d3.select(window).on("resize", throttle);
 
       var zoom = d3.behavior.zoom()
@@ -190,7 +211,17 @@ function draw(topo) {
     
     }
 
+<<<<<<< HEAD
   applyColour(41,0.8);
+=======
+  //applyColour(41,2);
+
+    for (i=0;i<242;i++){
+    if(data[i].crime_index != null){
+    applyColour(i,(data[i].crime_index)/100);
+    }
+    }
+>>>>>>> FETCH_HEAD
 
 
   //offsets for tooltips
@@ -205,7 +236,11 @@ function draw(topo) {
 
       tooltip.classed("hidden", false)
              .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
+<<<<<<< HEAD
              .html("<b>"+d.properties.name+"</b><br>Risk Index: " + crimeIndexDict[d.id].value + "</br><br>Crime Index : </br> Natural Disaster :")
+=======
+             .html("<b>"+d.properties.name+"</b><br>Crime Index : " + data[d.id].crime_index + "</br>Pollution Index :" + data[d.id].pollution_index + "<br>Natural Disaster Index :" + data[d.id].natural_disaster_index )
+>>>>>>> FETCH_HEAD
 
       })
 
@@ -259,7 +294,7 @@ function move() {
   g.attr("transform", "translate(" + t + ")scale(" + s + ")");
 
   //adjust the country hover stroke width based on zoom level
-  d3.selectAll(".country").style("stroke-width", 1.5 / s);
+ // for perm white border d3.selectAll(".country").style("stroke-width", 1.5 / s);
 
 }
 
@@ -277,7 +312,7 @@ function click() {
   var latlon = projection.invert(d3.mouse(this));
   console.log(latlon);
   top.name = "TEST!!";
-  window.open ("countryPage.html",'_self');
+  window.open ("countryPage.html",'_/self');
   
 }
 
