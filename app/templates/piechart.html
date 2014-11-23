@@ -13,9 +13,11 @@
 			}
 
 			#tooltip {
-				position: absolute;
-				width: 100px;
-				height: auto;
+				position:absolute
+				left:150px;
+				top:150px;
+				width: 75px;
+				height: 75px;
 				padding: 10px;
 				background-color: white;
 				-webkit-border-radius: 10px;
@@ -23,7 +25,7 @@
 				border-radius: 10px;
 				-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 				-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-				box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+				box-shadow: 4px 4px 10px rgba(255, 153, 0, 0.4);
 				pointer-events: none;
 			}
 			
@@ -43,8 +45,14 @@
 			var w = 300;
 			var h = 300;
 
-			var dataset = [ 15.7, 8.1, 2.1, 45, ];
+	
 
+			var dataset = [ 15.7, 8.1, 2.1, 45, ];
+			var dataValues = ["Pollution","Crime Rate", "Natural Disasters", "Debt"]
+
+		/*	var xScale = d3.scale.ordinal()
+							.domain(d3.range(dataset.length))
+							.rangeRoundBands([0, w], 0.05); */
 			/*
 			GDP (PPP):
 			$15.7 trillion
@@ -92,12 +100,26 @@
 			    	return color[i+1];
 			    })
 			    .attr("d", arc)
-			 /* 	.on("mouseover", function(d) {
-			    	d3.select("#tooltip").classed("hidden", false);
-			    	})	*/
+			 	.on("mouseover", function(d,i) {
 
+			 		/*var xPosition = parseFloat(d3.select(this).attr("x")) + xScale.rangeBand() / 2;
+					var yPosition = parseFloat(d3.select(this).attr("y")) / 2 + h / 2;
 
-			
+					d3.select("#tooltip")
+					.style("left", xPosition + "px")
+					.style("top", yPosition + "px")	*/
+
+			    	d3.select("#tooltip").classed("hidden", false)
+			    		.text(dataValues[i] + "   " + dataset[i])
+			    	})	
+
+			 	.on("mouseout", function() {
+			   
+					//Hide tooltip
+					d3.select("#tooltip").classed("hidden", true);
+					
+			   })
+
 			//Labels
 			/*arcs.append("text")
 				.transition()
