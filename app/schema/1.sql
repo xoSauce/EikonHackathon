@@ -6,10 +6,11 @@ CREATE TABLE countries(
     pollution_index double,
     natural_disaster_txt TEXT,
     natural_disaster_index double,
-    gdp_per_capita double,
-    import_per_gdp double,
-    export_per_gdp double,
-    debt double
+    gdp double,
+    import double,
+    export double,
+    debt double,
+    overall_index double
 );
 
 

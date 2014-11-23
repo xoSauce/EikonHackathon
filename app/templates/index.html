@@ -30,10 +30,11 @@
 
     <style>
 
-      .country:hover{
-        stroke: #000;
+     /*.country:hover{ */
+        .country {
+        stroke: #FFF;
         stroke-width: 0.25px;
-      }
+      }hover
 
       .text{
         font-size:10px;
@@ -203,7 +204,9 @@ function draw(topo) {
   //applyColour(41,2);
 
     for (i=0;i<242;i++){
+    if(data[i].crime_index != null){
     applyColour(i,(data[i].crime_index)/100);
+    }
     }
 
 
@@ -274,7 +277,7 @@ function move() {
   g.attr("transform", "translate(" + t + ")scale(" + s + ")");
 
   //adjust the country hover stroke width based on zoom level
-  d3.selectAll(".country").style("stroke-width", 1.5 / s);
+ // for perm white border d3.selectAll(".country").style("stroke-width", 1.5 / s);
 
 }
 
