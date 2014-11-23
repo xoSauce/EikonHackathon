@@ -27,6 +27,7 @@ def run():
         link = entry.get('href')
         if link.startswith('country'):
             links.append((entry.text.strip().lower(),start_link+link))
+
     for entry in links:
         level_of_crime = get_crime(entry[1])
         name = entry[0]
