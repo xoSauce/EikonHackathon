@@ -12,3 +12,7 @@ app/templates/topojson.v1.min.js
 *.svg
 
 *.eot
+
+app/frontEnd/nbproject/project.properties
+
+app/frontEnd/nbproject/project.properties
